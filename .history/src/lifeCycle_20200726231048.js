@@ -23,5 +23,3 @@ export function mountComponent(vm, el) {
   // 数据变化时，执行updateComponent更新视图
   new Watch(vm, updateComponent, () => {}, true)
 }
-
-function testGit() {}
